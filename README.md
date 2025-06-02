@@ -79,7 +79,7 @@ Voici une liste de logiciels que tu devras probablement installer sous Ubuntu 24
 * Copie-colle ces lignes de commandes dans le terminal :
 ```
    git clone https://github.com/DBXYD/ENSEA_Script_Install
-   cd 2025
+   cd ENSEA_Script_Install/2025/
    bash ensea_install_2025.sh
 ```
 * Suis les instructions à l'écran
