@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-
 echo "=== Mise à jour du système ==="
 sudo apt update && sudo apt upgrade -y
 
