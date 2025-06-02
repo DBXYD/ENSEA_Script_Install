@@ -73,6 +73,19 @@ Voici une liste de logiciels que tu devras probablement installer sous Ubuntu 24
     * Minicom
     * VLC
 
+👉 Voici un [script bash](https://github.com/DBXYD/ENSEA_Script_Install/blob/master/2025/ensea_install_2025.sh) pour installer en un temps record tous les logiciels demandés
+* Lance Ubuntu 24.04 LTS
+* Ouvre un terminal (Ctrl + Alt + t) ou Application > Terminal
+* Copie-colle ces lignes de commandes dans le terminal :
+```
+   git clone https://github.com/DBXYD/ENSEA_Script_Install
+   cd 2025
+   bash ensea_install_2025.sh
+```
+* Suis les instructions à l'écran
+* L'installation de l'ensemble des logiciels est terminée, tu es prêt pour la rentrée
+
+
 ### 🤝 Support à l’école
 Ne t’inquiète pas si tu rencontres des difficultés à installer ou configurer ton environnement : des créneaux de support technique seront proposés à l’école, encadrés par des étudiants expérimentés et des enseignants. 
 
