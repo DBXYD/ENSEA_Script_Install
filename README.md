@@ -16,13 +16,18 @@ Pas d’inquiétude : nous serons là pour t’aider. Des créneaux de support s
 | Carte graphique (GPU)   | GPU intégré (Intel Iris Xe ou AMD Radeon) ou NVIDIA (support Linux)                                         |
 | Écran                   | Full HD (1920x1080) minimum, 13" recommandé                                                                 |
 | Connectique             | USB-C, HDMI, Ethernet ou adaptateur                                                                         |
-| Système d'exploitation  | Linux (Ubuntu 24.04 LTS) en simple ou dual boot (à côté de windows par exemple)                             |
+| Système d'exploitation  | Linux (Ubuntu 24.04 LTS) en simple ou dual boot (à côté de windows par exemple) en anglais                  |
+
 
 ### ✅ Pourquoi Ubuntu 24.04 LTS ?
 - Large compatibilité logicielle (STM32CubeIDE, VSCode, IntelliJ, KiCad, Docker, etc.).
 - Support à long terme (5 ans), idéal pour une station de travail stable.
 - Performances optimisées pour le développement, la virtualisation, et la compilation.
 - Excellente communauté et documentation pour le dépannage.
+
+👉 Installe Ubuntu en anglais, la communauté anglophone est la plus importante.
+
+👉 [Guide](https://www.it-connect.fr/tuto-dual-boot-windows-et-linux-ubuntu-installation-sur-pc/) pour installer Ubuntu 24.04 LTS en dual boot.
 
 
 ### ⚠️ À éviter : MacBook avec processeur ARM, Chromebook et autres architectures non x86
