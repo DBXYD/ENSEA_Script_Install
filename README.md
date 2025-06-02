@@ -41,6 +41,8 @@ Marques et modèles connus pour bien fonctionner sous Ubuntu :
 * HP EliteBook ou ZBook
 * Framework Laptop (modulaire et parfaitement compatible Ubuntu)
 
+Tips : tu n'as pas besoin d'avoir un PC neuf, pour moins de 500€ tu peux trouver de très bonne occasion de 2nde main.
+
 ### 🧰 Logiciels à installer
 Voici une liste de logiciels que tu devras probablement installer sous Ubuntu 24.04 (script d'installation):
 * Développement
