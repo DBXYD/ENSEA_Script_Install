@@ -46,7 +46,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt install -y wireshark net-tools
 sudo usermod -aG wireshark $USER
 
 echo "=== Installation de KiCad ==="
-sudo add-apt-repository -y ppa:kicad/kicad-7.0-releases
+sudo add-apt-repository -y ppa:kicad/kicad-9.0-releases
 sudo apt update
 sudo apt install -y kicad
 
@@ -85,3 +85,4 @@ echo "=== Installation de VLC ==="
 sudo apt install -y vlc
 
 echo "=== Installation terminée ! Redémarre ta session pour activer Docker et Wireshark sans sudo. ==="
+
