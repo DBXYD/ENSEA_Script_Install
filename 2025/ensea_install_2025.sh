@@ -9,11 +9,12 @@ echo "=== Installation de Python 3 et outils ==="
 sudo apt install -y python3 python3-pip python3-venv
 
 echo "=== Installation de VSCode ==="
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-sudo apt update && sudo apt install -y code
-rm microsoft.gpg
+#wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+#sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+#sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+#sudo apt update && sudo apt install -y code
+#rm microsoft.gpg
+sudo snap install code --classic
 
 #echo "=== Installation de STM32CubeIDE ==="
 #STM32_URL=$(curl -s https://www.st.com/en/development-tools/stm32cubeide.html | grep -Eo 'https://.*linux_amd64\.sh' | head -n 1)
@@ -83,5 +84,6 @@ echo "=== Installation de VLC ==="
 sudo apt install -y vlc
 
 echo "=== Installation terminée ! Redémarre ta session pour activer Docker et Wireshark sans sudo. ==="
+
 
 
