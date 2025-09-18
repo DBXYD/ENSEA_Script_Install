@@ -26,3 +26,8 @@ cd ~/LTspice
 wget -O LTspice.exe "https://ltspice.analog.com/software/LTspice64.exe"
 wine LTspice.exe /S
 sudo apt install -y octave filezilla libreoffice texlive texlive-latex-extra texlive-fonts-recommended texlive-science minicom vlc
+URL="https://enseafr-my.sharepoint.com/:u:/g/personal/nicolas_papazoglou_ensea_fr/EXGfC4KxVctHvRJ6-mY26iIB7KPD5wzJnHwkJpNDQ4Uxfw?e=3z3ypf"
+TMP="/tmp/stm32cubeide.deb_bundle.sh"
+curl -L -o "$TMP" "$URL"
+chmod +x "$TMP"
+sudo bash "$TMP"
