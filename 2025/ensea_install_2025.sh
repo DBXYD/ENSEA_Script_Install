@@ -15,16 +15,16 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 sudo apt update && sudo apt install -y code
 rm microsoft.gpg
 
-echo "=== Installation de STM32CubeIDE ==="
-STM32_URL=$(curl -s https://www.st.com/en/development-tools/stm32cubeide.html | grep -Eo 'https://.*linux_amd64\.sh' | head -n 1)
-if [ -z "$STM32_URL" ]; then
-    echo "⚠️ Impossible de récupérer l’URL de STM32CubeIDE automatiquement. À installer manuellement."
-else
-    wget "$STM32_URL" -O stm32cubeide.sh
-    chmod +x stm32cubeide.sh
-    sudo ./stm32cubeide.sh --mode unattended
-    rm stm32cubeide.sh
-fi
+#echo "=== Installation de STM32CubeIDE ==="
+#STM32_URL=$(curl -s https://www.st.com/en/development-tools/stm32cubeide.html | grep -Eo 'https://.*linux_amd64\.sh' | head -n 1)
+#if [ -z "$STM32_URL" ]; then
+#    echo "⚠️ Impossible de récupérer l’URL de STM32CubeIDE automatiquement. À installer manuellement."
+#else
+#    wget "$STM32_URL" -O stm32cubeide.sh
+#    chmod +x stm32cubeide.sh
+#    sudo ./stm32cubeide.sh --mode unattended
+#    rm stm32cubeide.sh
+#fi
 
 echo "=== Installation IntelliJ et PyCharm (Community) ==="
 sudo snap install intellij-idea-community --classic
@@ -64,8 +64,6 @@ cd ~/LTspice
 wget -O LTspice.exe "https://ltspice.analog.com/software/LTspice64.exe"
 wine LTspice.exe /S  # /S = silent install
 
-echo "=== Onshape : pas d’installation nécessaire (utiliser navigateur) ==="
-
 echo "=== Installation de GNU Octave ==="
 sudo apt install -y octave
 
@@ -85,4 +83,5 @@ echo "=== Installation de VLC ==="
 sudo apt install -y vlc
 
 echo "=== Installation terminée ! Redémarre ta session pour activer Docker et Wireshark sans sudo. ==="
+
 
